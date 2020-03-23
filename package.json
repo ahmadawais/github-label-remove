@@ -1,6 +1,6 @@
 {
 	"name": "github-label-remove",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Remove GitHub labels via CLI.",
 	"license": "MIT",
 	"repository": "ahmadawais/github-label-remove",
