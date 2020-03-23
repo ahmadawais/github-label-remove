@@ -29,12 +29,28 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/github-label-remove/compare/1.0.0...1.1.0)
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Help [`8d8f63b`](https://github.com/ahmadawais/github-label-remove/commit/8d8f63b5335e421384007a02be85331bc95a17bb) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 First commit [`542adc9`](https://github.com/ahmadawais/github-label-remove/commit/542adc93171b6a2b2d8a99f980b9968893edb8d7) <br>
 > 📦 First version [`0089bde`](https://github.com/ahmadawais/github-label-remove/commit/0089bde2600309b27996f78f223ffa3f5de7814e) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`ff5730c`](https://github.com/ahmadawais/github-label-remove/commit/ff5730c16228ca48905e40cda7e232d9498acde9) <br>
 
 <br>
 
