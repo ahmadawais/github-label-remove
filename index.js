@@ -38,7 +38,7 @@ const updateNotifier = require('update-notifier');
 	const cli = meow(
 		`
 	Usage
-	  ${green(`github-label-remove`)} ${yellow(`[--option]`)}
+	  ${green(`npx github-label-remove`)} ${yellow(`[--option]`)}
 
 	Options
 	  ${yellow(`--token`)}, ${yellow(`-t`)}     GitHub token
@@ -49,14 +49,14 @@ const updateNotifier = require('update-notifier');
 
 	Examples
 	  # Delete a single label.
-	  ${green(`github-label-remove`)} ${yellow(`--token`)} <token> ${yellow(`--repo <name/repo>`)} ${yellow(
+	  ${green(`npx github-label-remove`)} ${yellow(`--token`)} <token> ${yellow(`--repo <name/repo>`)} ${yellow(
 			`--lable`
 		)} <label-name-to-delete>
-	  ${green(`github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r <name/repo>`)} ${yellow(`-l`)} <label-name-to-delete>
+	  ${green(`npx github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r <name/repo>`)} ${yellow(`-l`)} <label-name-to-delete>
 
 	  # Delete all the default labels.
-	  ${green(`github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r`)} <name/repo> ${yellow(`--defaults`)}
-	  ${green(`github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r`)} <name/repo> ${yellow(`-d`)}
+	  ${green(`npx github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r`)} <name/repo> ${yellow(`--defaults`)}
+	  ${green(`npx github-label-remove`)} ${yellow(`-t`)} <token> ${yellow(`-r`)} <name/repo> ${yellow(`-d`)}
 `,
 		{
 			booleanDefault: undefined,

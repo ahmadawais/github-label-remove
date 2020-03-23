@@ -3,17 +3,7 @@
 [![DOWNLOADS](https://img.shields.io/npm/dt/github-label-remove?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/github-label-remove) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro%20%E2%86%92-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=GitHubFOSS)
 [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
 
-> Remove GitHub labels via CLI.
-
-<br>
-
-[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
-
-## Install
-
-```sh
-npm install github-label-remove
-```
+> Remove GitHub labels via CLI. Both custom labels or default labels in one go.
 
 <br>
 
@@ -21,8 +11,31 @@ npm install github-label-remove
 
 ## Usage
 
-```js
-const githubLabelRemove = require('github-label-remove');
+```sh
+# Run with options.
+npx github-label-remove [--option]
+```
+
+### Options
+
+```sh
+--token, -t     GitHub token
+--repo, -r      GitHub username/repo
+--label, -l     Custom label to remove (optional)
+--api, -a       Custom API link (optional)
+--defaults, -d  Delete all default GitHub labels
+```
+
+### Examples
+
+```sh
+# Delete a single label.
+npx github-label-remove --token <token> --repo <name/repo> --lable <label-name-to-delete>
+npx github-label-remove -t <token> -r <name/repo> -l <label-name-to-delete>
+
+# Delete all the default labels.
+npx github-label-remove -t <token> -r <name/repo> --defaults
+npx github-label-remove -t <token> -r <name/repo> -d
 ```
 
 <br>
