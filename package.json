@@ -1,0 +1,24 @@
+{
+	"name": "github-label-remove",
+	"version": "0.0.1",
+	"description": "Remove GitHub labels via CLI.",
+	"license": "MIT",
+	"repository": "ahmadawais/github-label-remove",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"github-label-remove",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"scripts": {
+		"test": "node test.js"
+	}
+}
