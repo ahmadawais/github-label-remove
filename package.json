@@ -13,6 +13,9 @@
 	"files": [
 		"index.js"
 	],
+	"bin": {
+		"github-label-remove": "index.js"
+	},
 	"keywords": [
 		"github-label-remove",
 		"Ahmad Awais",
@@ -20,5 +23,15 @@
 	],
 	"scripts": {
 		"test": "node test.js"
+	},
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"cli-handle-error": "^4.0.0",
+		"cli-welcome": "^1.4.0",
+		"git-label": "^4.1.1",
+		"log-symbols": "^3.0.0",
+		"meow": "^6.1.0",
+		"ora": "^4.0.3",
+		"update-notifier": "^4.1.0"
 	}
 }
