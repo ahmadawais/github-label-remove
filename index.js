@@ -107,6 +107,7 @@ const updateNotifier = require('update-notifier');
 		{ name: 'good first issue', color: '' },
 		{ name: 'help wanted', color: '' },
 		{ name: 'invalid', color: '' },
+		{ name: 'documentation', color: '' },
 		{ name: 'question', color: '' },
 		{ name: 'wontfix', color: '' }
 	];
