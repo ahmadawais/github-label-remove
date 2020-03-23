@@ -29,11 +29,24 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.2.0](https://github.com/ahmadawais/github-label-remove/compare/1.1.0...1.2.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Missing Label [`727b92b`](https://github.com/ahmadawais/github-label-remove/commit/727b92b68aaa80aac79ec3f09d6dadd0a5a9aab1) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.1.0](https://github.com/ahmadawais/github-label-remove/compare/1.0.0...1.1.0)
 
 ![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 
 > 📖 Help [`8d8f63b`](https://github.com/ahmadawais/github-label-remove/commit/8d8f63b5335e421384007a02be85331bc95a17bb) <br>
+> 📖 Changelog [`d49fc23`](https://github.com/ahmadawais/github-label-remove/commit/d49fc230df63d708778de2ac360b86e97cd0b02f) <br>
 
 <br>
 
